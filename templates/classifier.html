@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+        <a href="/"><img src="static/assets/images/Les Brains.png" height="80" width="80"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="/">HOME</a></li>
+                <li><a href="/data">DATA ANALYSIS</a></li>
+                <li><a href="/classifier">CLASSIFIER TOOL</a></li>
+                <li><a href="/contact">CONTACT US</a></li>
+            </ul>
+            </div>
+        </nav>
+    <div class="text">
+        <h1>Predict!</h1>
+        
+        <form action="/classifier" method="POST">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Gender</span>
+                <input type="text" class="form-control" placeholder="Enter a value" name="Gender">
+              </div>
+        
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Course</span>
+                <input type="text" class="form-control" placeholder="Enter a value" name="Course">
+              </div>
+        
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Year of study</span>
+                <input type="text" class="form-control" placeholder="Enter a value" name="Year">
+              </div>
+        
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Age</span>
+                <input type="text" class="form-control" placeholder="Enter a value" name="Age">
+              </div>
+    
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">CGPA</span>
+                <input type="text" class="form-control" placeholder="Enter a value" name="CGPA">
+              </div>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Marital Status</span>
+                <input type="text" class="form-control" placeholder="Enter a value" name="MS">
+              </div>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Did you seek treatment?</span>
+                <input type="text" class="form-control" placeholder="Enter a value" name="Treatment">
+              </div>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Are you have Panic Attacks?</span>
+                <input type="text" class="form-control" placeholder="Enter a value" name="PA">
+              </div>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Do you have Anxiety?</span>
+                <input type="text" class="form-control" placeholder="Enter a value" name="Anxiety">
+              </div>
+
+        
+              <button type="submit" class="btn btn-success">Predict</button>
+            </form>
+
+    </div>
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+</body>
+</html>
